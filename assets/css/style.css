@@ -393,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/headers/header1.jpg") top center;
+  background: url("../img/headers/header11.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -592,17 +592,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero-TD Section
+# Hero-Work
 --------------------------------------------------------------*/
-#hero-clnx {
+#hero-td {
   width: 100%;
   height: 100vh;
-  background: url("../img/headers/header3.jpg") top center;
+  background: url("../img/headers/header2.png") top center;
   background-size: cover;
   position: relative;
 }
 
-#hero-clnx:before {
+#hero-td:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -612,13 +612,13 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
-#hero-clnx .container {
+#hero-td .container {
   position: relative;
   padding-top: 74px;
   text-align: center;
 }
 
-#hero-clnx h1 {
+#hero-td h1 {
   margin: 0;
   font-size: 56px;
   font-weight: 700;
@@ -627,17 +627,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#hero-clnx h1 span {
+#hero-td h1 span {
   color: #ffc451;
 }
 
-#hero-clnx h2 {
+#hero-td h2 {
   color: rgba(255, 255, 255, 0.9);
   margin: 10px 0 0 0;
   font-size: 24px;
 }
 
-#hero-clnx .icon-box {
+#hero-td .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -645,13 +645,13 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#hero-clnx .icon-box i {
+#hero-td .icon-box i {
   font-size: 32px;
   line-height: 1;
   color: #ffc451;
 }
 
-#hero-clnx .icon-box h3 {
+#hero-td .icon-box h3 {
   font-weight: 700;
   margin: 10px 0 0 0;
   padding: 0;
@@ -660,34 +660,136 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 26px;
 }
 
-#hero-clnx .icon-box h3 a {
+#hero-td .icon-box h3 a {
   color: #fff;
   transition: ease-in-out 0.3s;
 }
 
-#hero-clnx .icon-box h3 a:hover {
+#hero-td .icon-box h3 a:hover {
   color: #ffc451;
 }
 
-#hero-clnx .icon-box:hover {
+#hero-td .icon-box:hover {
   border-color: #ffc451;
 }
 
 @media (min-width: 1024px) {
-  #hero-clnx {
+  #hero-td {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #hero-clnx {
+  #hero-td {
     height: auto;
   }
-  #hero-clnx h1 {
+  #hero-td h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero-clnx h2 {
+  #hero-td h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero-Work Section
+--------------------------------------------------------------*/
+#hero-work {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/headers/header4.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero-work:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero-work .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#hero-work h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero-work h1 span {
+  color: #ffc451;
+}
+
+#hero-work h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+#hero-work .icon-box {
+  padding: 30px 20px;
+  transition: ease-in-out 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 100%;
+  text-align: center;
+}
+
+#hero-work .icon-box i {
+  font-size: 32px;
+  line-height: 1;
+  color: #ffc451;
+}
+
+#hero-work .icon-box h3 {
+  font-weight: 700;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#hero-work .icon-box h3 a {
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+#hero-work .icon-box h3 a:hover {
+  color: #ffc451;
+}
+
+#hero-work .icon-box:hover {
+  border-color: #ffc451;
+}
+
+@media (min-width: 1024px) {
+  #hero-work {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-work {
+    height: auto;
+  }
+  #hero-work h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-work h2 {
     font-size: 20px;
     line-height: 24px;
   }
