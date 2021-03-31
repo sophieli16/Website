@@ -393,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/headers/header1.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -484,6 +484,210 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 36px;
   }
   #hero h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero-TD Section
+--------------------------------------------------------------*/
+#hero-td {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/headers/header2.png") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero-td:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero-td .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#hero-td h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero-td h1 span {
+  color: #ffc451;
+}
+
+#hero-td h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+#hero-td .icon-box {
+  padding: 30px 20px;
+  transition: ease-in-out 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 100%;
+  text-align: center;
+}
+
+#hero-td .icon-box i {
+  font-size: 32px;
+  line-height: 1;
+  color: #ffc451;
+}
+
+#hero-td .icon-box h3 {
+  font-weight: 700;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#hero-td .icon-box h3 a {
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+#hero-td .icon-box h3 a:hover {
+  color: #ffc451;
+}
+
+#hero-td .icon-box:hover {
+  border-color: #ffc451;
+}
+
+@media (min-width: 1024px) {
+  #hero-td {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-td {
+    height: auto;
+  }
+  #hero-td h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-td h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero-TD Section
+--------------------------------------------------------------*/
+#hero-clnx {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/headers/header3.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero-clnx:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero-clnx .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#hero-clnx h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero-clnx h1 span {
+  color: #ffc451;
+}
+
+#hero-clnx h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+#hero-clnx .icon-box {
+  padding: 30px 20px;
+  transition: ease-in-out 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 100%;
+  text-align: center;
+}
+
+#hero-clnx .icon-box i {
+  font-size: 32px;
+  line-height: 1;
+  color: #ffc451;
+}
+
+#hero-clnx .icon-box h3 {
+  font-weight: 700;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#hero-clnx .icon-box h3 a {
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+#hero-clnx .icon-box h3 a:hover {
+  color: #ffc451;
+}
+
+#hero-clnx .icon-box:hover {
+  border-color: #ffc451;
+}
+
+@media (min-width: 1024px) {
+  #hero-clnx {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-clnx {
+    height: auto;
+  }
+  #hero-clnx h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-clnx h2 {
     font-size: 20px;
     line-height: 24px;
   }
